@@ -1,0 +1,8 @@
+{
+  "contest": 332,
+  "handle": "Krace",
+  "risk": "3",
+  "title": "The function `claimYieldFeeShares` has been incorrectly implemented",
+  "issueId": 10,
+  "issueUrl": "https://github.com/code-423n4/2024-03-pooltogether-findings/issues/10"
+}
