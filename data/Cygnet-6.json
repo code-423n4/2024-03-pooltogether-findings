@@ -1,0 +1,11 @@
+{
+  "contest": 332,
+  "handle": "Cygnet",
+  "crew": [
+    "rjs"
+  ],
+  "risk": "2",
+  "title": "Contracts are vulnerable to rebasing accounting-related issues",
+  "issueId": 6,
+  "issueUrl": "https://github.com/code-423n4/2024-03-pooltogether-findings/issues/6"
+}
