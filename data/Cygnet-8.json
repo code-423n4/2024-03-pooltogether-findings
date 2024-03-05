@@ -1,0 +1,11 @@
+{
+  "contest": 332,
+  "handle": "Cygnet",
+  "crew": [
+    "rjs"
+  ],
+  "risk": "2",
+  "title": "ERC20: unsafe use of `transfer()`/`transferFrom()` ",
+  "issueId": 8,
+  "issueUrl": "https://github.com/code-423n4/2024-03-pooltogether-findings/issues/8"
+}
