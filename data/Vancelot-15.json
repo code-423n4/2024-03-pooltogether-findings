@@ -1,0 +1,8 @@
+{
+  "contest": 332,
+  "handle": "Vancelot",
+  "risk": "2",
+  "title": "`address(this)` can be passed as param in `_setClaimer` ",
+  "issueId": 15,
+  "issueUrl": "https://github.com/code-423n4/2024-03-pooltogether-findings/issues/15"
+}
