@@ -1,0 +1,8 @@
+{
+  "contest": 332,
+  "handle": "AerialRaider",
+  "risk": "2",
+  "title": "Explicit permission checks and parameter validations for deployVault function in the PrizeVaultFactory contract",
+  "issueId": 12,
+  "issueUrl": "https://github.com/code-423n4/2024-03-pooltogether-findings/issues/12"
+}
