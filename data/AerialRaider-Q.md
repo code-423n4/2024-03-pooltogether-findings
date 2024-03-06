@@ -55,4 +55,4 @@ In this setup, anyone with the HOOK_MANAGER_ROLE can set hooks for any account, 
 Additional Considerations
 Role Management: Implement functions to grant and revoke HOOK_MANAGER_ROLE to accounts as needed, using grantRole and revokeRole. Ensure these management functions are protected and can only be called by accounts with the DEFAULT_ADMIN_ROLE or another designated admin role.
 
-By following this approach, you can create a flexible and secure system for managing prize hooks within the PoolTogether protocol, with granular permissions for different roles and actions. 
+Incorporating AccessControl into the PoolTogether protocol's HookManager significantly enhances the security and flexibility of hook management. By carefully assigning roles and permissions, the protocol can safeguard against unauthorized modifications while allowing for legitimate use cases, such as third-party services managing hooks. Regular audits and adherence to security best practices are paramount to maintaining the integrity and trustworthiness of the system.
