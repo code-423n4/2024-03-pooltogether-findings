@@ -1,0 +1,8 @@
+{
+  "contest": 332,
+  "handle": "HChang26",
+  "risk": "2",
+  "title": "`claimYieldFeeShares()` should revert in lossy state",
+  "issueId": 26,
+  "issueUrl": "https://github.com/code-423n4/2024-03-pooltogether-findings/issues/26"
+}
