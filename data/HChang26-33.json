@@ -1,0 +1,8 @@
+{
+  "contest": 332,
+  "handle": "HChang26",
+  "risk": "3",
+  "title": "Slippage Vulnerability in `_depositAndMint()` Allows Potential Yield Drainage",
+  "issueId": 33,
+  "issueUrl": "https://github.com/code-423n4/2024-03-pooltogether-findings/issues/33"
+}
