@@ -1,0 +1,8 @@
+{
+  "contest": 332,
+  "handle": "zaevlad",
+  "risk": "2",
+  "title": "`claimer` can not be set to address zero as it's stated in code comments",
+  "issueId": 36,
+  "issueUrl": "https://github.com/code-423n4/2024-03-pooltogether-findings/issues/36"
+}
