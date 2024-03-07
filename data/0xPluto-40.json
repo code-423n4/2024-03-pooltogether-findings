@@ -1,0 +1,8 @@
+{
+  "contest": 332,
+  "handle": "0xPluto",
+  "risk": "2",
+  "title": "Insufficient Gas Limit for External Calls Leads to Potential Denial of Service (DoS) Attack (in Claimable.sol)",
+  "issueId": 40,
+  "issueUrl": "https://github.com/code-423n4/2024-03-pooltogether-findings/issues/40"
+}
