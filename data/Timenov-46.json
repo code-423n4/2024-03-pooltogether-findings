@@ -1,0 +1,8 @@
+{
+  "contest": 332,
+  "handle": "Timenov",
+  "risk": "2",
+  "title": "depositWithPermit is allowed to be called only by the permit creator",
+  "issueId": 46,
+  "issueUrl": "https://github.com/code-423n4/2024-03-pooltogether-findings/issues/46"
+}
