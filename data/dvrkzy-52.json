@@ -1,0 +1,8 @@
+{
+  "contest": 332,
+  "handle": "dvrkzy",
+  "risk": "2",
+  "title": "claimYieldFeeShares resets the whole yieldFeeBalance",
+  "issueId": 52,
+  "issueUrl": "https://github.com/code-423n4/2024-03-pooltogether-findings/issues/52"
+}
