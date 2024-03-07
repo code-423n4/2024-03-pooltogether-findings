@@ -1,0 +1,8 @@
+{
+  "contest": 332,
+  "handle": "HChang26",
+  "risk": "2",
+  "title": "Missing Lossy State Check in `_withdraw()` Method Leads to Potential Overwithdrawal in `transferTokensOut()`",
+  "issueId": 30,
+  "issueUrl": "https://github.com/code-423n4/2024-03-pooltogether-findings/issues/30"
+}
