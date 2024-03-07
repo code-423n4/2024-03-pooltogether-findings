@@ -1,0 +1,8 @@
+{
+  "contest": 332,
+  "handle": "MSaptarshi",
+  "risk": "3",
+  "title": "Initial depositor can manipulate the price per share value and future depositors are forced to deposit huge value in vault.",
+  "issueId": 32,
+  "issueUrl": "https://github.com/code-423n4/2024-03-pooltogether-findings/issues/32"
+}
