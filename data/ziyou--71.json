@@ -1,0 +1,8 @@
+{
+  "contest": 332,
+  "handle": "ziyou-",
+  "risk": "2",
+  "title": "The function maxRedeem did not comply with the ERC4626 standard when calculating the parameter _maxScaledRedeem.",
+  "issueId": 71,
+  "issueUrl": "https://github.com/code-423n4/2024-03-pooltogether-findings/issues/71"
+}
