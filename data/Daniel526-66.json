@@ -1,0 +1,8 @@
+{
+  "contest": 332,
+  "handle": "Daniel526",
+  "risk": "2",
+  "title": "Inconsistency in maxDeposit Function Return Value Handling",
+  "issueId": 66,
+  "issueUrl": "https://github.com/code-423n4/2024-03-pooltogether-findings/issues/66"
+}
