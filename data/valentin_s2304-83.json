@@ -1,0 +1,8 @@
+{
+  "contest": 332,
+  "handle": "valentin_s2304",
+  "risk": "2",
+  "title": "PrizeVaultFactory enables the deployment of vaults with non-authentic yieldVault and prizePool.",
+  "issueId": 83,
+  "issueUrl": "https://github.com/code-423n4/2024-03-pooltogether-findings/issues/83"
+}
