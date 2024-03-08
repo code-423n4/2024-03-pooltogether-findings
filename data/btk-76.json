@@ -1,0 +1,8 @@
+{
+  "contest": 332,
+  "handle": "btk",
+  "risk": "2",
+  "title": "yieldFeeBalance will all be lost if the feeRecipient claimed only a portion",
+  "issueId": 76,
+  "issueUrl": "https://github.com/code-423n4/2024-03-pooltogether-findings/issues/76"
+}
