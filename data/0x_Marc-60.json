@@ -1,0 +1,8 @@
+{
+  "contest": 332,
+  "handle": "0x_Marc",
+  "risk": "2",
+  "title": "Lossy state in `PrizeVault::claimYieldFeeShares()`",
+  "issueId": 60,
+  "issueUrl": "https://github.com/code-423n4/2024-03-pooltogether-findings/issues/60"
+}
