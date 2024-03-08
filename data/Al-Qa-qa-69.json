@@ -1,0 +1,8 @@
+{
+  "contest": 332,
+  "handle": "Al-Qa-qa",
+  "risk": "2",
+  "title": "`PrizeVault::claimYieldFeeShares()` subtracts all fees whatever the value passed to it.",
+  "issueId": 69,
+  "issueUrl": "https://github.com/code-423n4/2024-03-pooltogether-findings/issues/69"
+}
