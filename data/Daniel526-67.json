@@ -1,0 +1,8 @@
+{
+  "contest": 332,
+  "handle": "Daniel526",
+  "risk": "2",
+  "title": "Zero Checks for Minting Limits in the maxMint function",
+  "issueId": 67,
+  "issueUrl": "https://github.com/code-423n4/2024-03-pooltogether-findings/issues/67"
+}
