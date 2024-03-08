@@ -1,0 +1,8 @@
+{
+  "contest": 332,
+  "handle": "asui",
+  "risk": "2",
+  "title": "Remaining amount of yeildFeeBalance will be lost if the yeildFeeRecipient tries to withdraw partially.",
+  "issueId": 62,
+  "issueUrl": "https://github.com/code-423n4/2024-03-pooltogether-findings/issues/62"
+}
