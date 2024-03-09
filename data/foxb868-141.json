@@ -1,0 +1,8 @@
+{
+  "contest": 332,
+  "handle": "foxb868",
+  "risk": "2",
+  "title": "Yield vault's mint discrepancy may break PrizeVault's totalAssets invariant.",
+  "issueId": 141,
+  "issueUrl": "https://github.com/code-423n4/2024-03-pooltogether-findings/issues/141"
+}
