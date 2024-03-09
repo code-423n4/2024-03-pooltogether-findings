@@ -1,0 +1,8 @@
+{
+  "contest": 332,
+  "handle": "Myd",
+  "risk": "2",
+  "title": "Lack of caller validation in previous function version allowed arbitrary deposits.",
+  "issueId": 120,
+  "issueUrl": "https://github.com/code-423n4/2024-03-pooltogether-findings/issues/120"
+}
