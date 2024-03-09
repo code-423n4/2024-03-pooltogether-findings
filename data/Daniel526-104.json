@@ -1,0 +1,8 @@
+{
+  "contest": 332,
+  "handle": "Daniel526",
+  "risk": "2",
+  "title": "Lack of Proper Allowance Validation in depositWithPermit Function",
+  "issueId": 104,
+  "issueUrl": "https://github.com/code-423n4/2024-03-pooltogether-findings/issues/104"
+}
