@@ -1,0 +1,8 @@
+{
+  "contest": 332,
+  "handle": "Drynooo",
+  "risk": "3",
+  "title": "Precision issues may cause the _withdraw function call to fail",
+  "issueId": 121,
+  "issueUrl": "https://github.com/code-423n4/2024-03-pooltogether-findings/issues/121"
+}
