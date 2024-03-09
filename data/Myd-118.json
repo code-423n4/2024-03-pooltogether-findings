@@ -1,0 +1,8 @@
+{
+  "contest": 332,
+  "handle": "Myd",
+  "risk": "2",
+  "title": "Manipulated TwabController data results in incorrect TwabERC20 total supply. Consequences include mispricing, misallocation of rewards, and loss of trust.",
+  "issueId": 118,
+  "issueUrl": "https://github.com/code-423n4/2024-03-pooltogether-findings/issues/118"
+}
