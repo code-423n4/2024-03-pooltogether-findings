@@ -1,0 +1,8 @@
+{
+  "contest": 332,
+  "handle": "kgothatso",
+  "risk": "2",
+  "title": " Not calling approve(0) before setting a new approval causes the call to revert when used with Tether (USDT)",
+  "issueId": 129,
+  "issueUrl": "https://github.com/code-423n4/2024-03-pooltogether-findings/issues/129"
+}
