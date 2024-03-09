@@ -1,0 +1,8 @@
+{
+  "contest": 332,
+  "handle": "Myd",
+  "risk": "2",
+  "title": "Vault may enter \"recovery mode\" if `totalAssets()` falls below `totalDebt()`.",
+  "issueId": 116,
+  "issueUrl": "https://github.com/code-423n4/2024-03-pooltogether-findings/issues/116"
+}
