@@ -1,0 +1,8 @@
+{
+  "contest": 332,
+  "handle": "Myd",
+  "risk": "2",
+  "title": "Attacker replaying a valid permit signature may manipulate user funds. Unintended deposits or approvals without user knowledge or consent.",
+  "issueId": 119,
+  "issueUrl": "https://github.com/code-423n4/2024-03-pooltogether-findings/issues/119"
+}
