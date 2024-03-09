@@ -1,0 +1,8 @@
+{
+  "contest": 332,
+  "handle": "foxb868",
+  "risk": "2",
+  "title": "Token contract vulnerabilities block deposits and withdrawals, inducing DoS condition.",
+  "issueId": 146,
+  "issueUrl": "https://github.com/code-423n4/2024-03-pooltogether-findings/issues/146"
+}
