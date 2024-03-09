@@ -1,0 +1,8 @@
+{
+  "contest": 332,
+  "handle": "foxb868",
+  "risk": "2",
+  "title": "Precision loss in deposit/withdraw due to truncated decimal handling.",
+  "issueId": 136,
+  "issueUrl": "https://github.com/code-423n4/2024-03-pooltogether-findings/issues/136"
+}
