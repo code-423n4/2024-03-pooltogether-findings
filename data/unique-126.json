@@ -1,0 +1,8 @@
+{
+  "contest": 332,
+  "handle": "unique",
+  "risk": "3",
+  "title": "Failure to Return 0 in `maxWithdraw() ` and `maxRedeem()`  Functions",
+  "issueId": 126,
+  "issueUrl": "https://github.com/code-423n4/2024-03-pooltogether-findings/issues/126"
+}
