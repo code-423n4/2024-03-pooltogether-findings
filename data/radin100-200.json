@@ -1,0 +1,8 @@
+{
+  "contest": 332,
+  "handle": "radin100",
+  "risk": "2",
+  "title": "Executing 'PrizeVault::claimYieldFeeShares' could lead to loss of potential yield shares",
+  "issueId": 200,
+  "issueUrl": "https://github.com/code-423n4/2024-03-pooltogether-findings/issues/200"
+}
