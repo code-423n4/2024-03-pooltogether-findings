@@ -1,0 +1,8 @@
+{
+  "contest": 332,
+  "handle": "0xRiO",
+  "risk": "3",
+  "title": "PrizeVault::transferTokensOut incorrect implementation of formula to calculate _yeildFee",
+  "issueId": 171,
+  "issueUrl": "https://github.com/code-423n4/2024-03-pooltogether-findings/issues/171"
+}
