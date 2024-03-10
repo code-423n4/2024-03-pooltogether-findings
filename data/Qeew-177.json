@@ -1,0 +1,8 @@
+{
+  "contest": 332,
+  "handle": "Qeew",
+  "risk": "3",
+  "title": "User will still be able to deposit despite yield being depleted incurring losses due to rounding errors",
+  "issueId": 177,
+  "issueUrl": "https://github.com/code-423n4/2024-03-pooltogether-findings/issues/177"
+}
