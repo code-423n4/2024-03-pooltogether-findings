@@ -1,0 +1,8 @@
+{
+  "contest": 332,
+  "handle": "0xbrett8571",
+  "risk": "2",
+  "title": "Inadequate yieldBuffer could lead to users receiving fewer assets upon share redemption.",
+  "issueId": 161,
+  "issueUrl": "https://github.com/code-423n4/2024-03-pooltogether-findings/issues/161"
+}
