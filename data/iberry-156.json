@@ -1,0 +1,8 @@
+{
+  "contest": 332,
+  "handle": "iberry",
+  "risk": "2",
+  "title": "Incorrect yieldFeeBalance Calculation in PrizeVault#claimYieldFeeShares",
+  "issueId": 156,
+  "issueUrl": "https://github.com/code-423n4/2024-03-pooltogether-findings/issues/156"
+}
