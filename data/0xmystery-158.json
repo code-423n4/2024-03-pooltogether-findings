@@ -1,0 +1,8 @@
+{
+  "contest": 332,
+  "handle": "0xmystery",
+  "risk": "2",
+  "title": "Need for Slippage Protection in `PrizeVault.Withdraw()` and `PrizeVault.Redeem()`",
+  "issueId": 158,
+  "issueUrl": "https://github.com/code-423n4/2024-03-pooltogether-findings/issues/158"
+}
