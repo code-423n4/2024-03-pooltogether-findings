@@ -1,0 +1,8 @@
+{
+  "contest": 332,
+  "handle": "lsaudit",
+  "risk": "3",
+  "title": "`convertToAssets()` and `convertToShares()` deviates from the standard ERC-4626 implementation",
+  "issueId": 197,
+  "issueUrl": "https://github.com/code-423n4/2024-03-pooltogether-findings/issues/197"
+}
