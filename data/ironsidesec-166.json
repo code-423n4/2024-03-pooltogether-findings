@@ -1,0 +1,8 @@
+{
+  "contest": 332,
+  "handle": "ironsidesec",
+  "risk": "3",
+  "title": "Prizes cannot be claimed with Hooks in Arbitrum due to low gas limit",
+  "issueId": 166,
+  "issueUrl": "https://github.com/code-423n4/2024-03-pooltogether-findings/issues/166"
+}
