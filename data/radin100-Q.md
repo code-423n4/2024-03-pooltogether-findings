@@ -1,0 +1,2 @@
+## [L-1] 'PrizeVault::maxDeposit' could be manipulated to return 0 value every time it's called
+Malicious user could decide to transfer bunch of asset tokens directly into PrizeVault. Thus 'PrizeVault::maxDeposit' is going to be obligated to return 0 value every time it's called due to _latentBalance is going to be permanently greater than _maxYieldVaultDeposit
