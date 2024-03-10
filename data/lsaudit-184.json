@@ -1,0 +1,8 @@
+{
+  "contest": 332,
+  "handle": "lsaudit",
+  "risk": "2",
+  "title": "Some functions may revert due to overflow from adding `_asset.balanceOf(address(this))` - making them non-compatible with EIP-4626",
+  "issueId": 184,
+  "issueUrl": "https://github.com/code-423n4/2024-03-pooltogether-findings/issues/184"
+}
