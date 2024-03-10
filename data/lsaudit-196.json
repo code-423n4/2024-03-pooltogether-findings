@@ -1,0 +1,8 @@
+{
+  "contest": 332,
+  "handle": "lsaudit",
+  "risk": "2",
+  "title": "`previewDeposit` and `previewMint` violate EIP-4626, because they are not inclusive of deposit fees",
+  "issueId": 196,
+  "issueUrl": "https://github.com/code-423n4/2024-03-pooltogether-findings/issues/196"
+}
