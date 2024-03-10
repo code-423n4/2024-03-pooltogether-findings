@@ -1,2 +1,4 @@
 ## [L-1] 'PrizeVault::maxDeposit' could be manipulated to return 0 value every time it's called
 Malicious user could decide to transfer bunch of asset tokens directly into PrizeVault. Thus 'PrizeVault::maxDeposit' is going to be obligated to return 0 value every time it's called due to _latentBalance is going to be permanently greater than _maxYieldVaultDeposit
+### [L-2] 'PrizeVault::liquidatableBalanceOf' could return wrong value due to tokens' different decimals values
+When 'PrizeVault::liquidatableBalanceOf' is executed with vault token address in input(which usually has 18 decimals), and the asset token is below 18(9 for example), the function will always return _liquidYield, because of the asset's lower decimal places (always returns lower liquidatableBalance than actual) 
