@@ -1,0 +1,8 @@
+{
+  "contest": 332,
+  "handle": "lsaudit",
+  "risk": "2",
+  "title": "Missing slippage controls in deposit/mint/withdraw/redeem",
+  "issueId": 194,
+  "issueUrl": "https://github.com/code-423n4/2024-03-pooltogether-findings/issues/194"
+}
