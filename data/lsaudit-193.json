@@ -1,0 +1,8 @@
+{
+  "contest": 332,
+  "handle": "lsaudit",
+  "risk": "2",
+  "title": "`maxMint()` and `maxDeposit()` are depended on `balanceOf` - violating the EIP-4626 standard",
+  "issueId": 193,
+  "issueUrl": "https://github.com/code-423n4/2024-03-pooltogether-findings/issues/193"
+}
