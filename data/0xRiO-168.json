@@ -1,0 +1,8 @@
+{
+  "contest": 332,
+  "handle": "0xRiO",
+  "risk": "3",
+  "title": "PrizeVault::claimYieldFeeShares has a wrong calculation of yieldFeeBalance",
+  "issueId": 168,
+  "issueUrl": "https://github.com/code-423n4/2024-03-pooltogether-findings/issues/168"
+}
