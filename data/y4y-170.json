@@ -1,0 +1,8 @@
+{
+  "contest": 332,
+  "handle": "y4y",
+  "risk": "3",
+  "title": "Yield fee can be generated from thin air, which causes potential DoS and unlimited claim of fee shares.",
+  "issueId": 170,
+  "issueUrl": "https://github.com/code-423n4/2024-03-pooltogether-findings/issues/170"
+}
