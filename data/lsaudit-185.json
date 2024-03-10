@@ -1,0 +1,8 @@
+{
+  "contest": 332,
+  "handle": "lsaudit",
+  "risk": "2",
+  "title": "EIP-4626 violation - functions do not follow the limits enforced by `maxWithdraw()`, `maxDeposit()`, `maxRedeem()`, `maxMint()`",
+  "issueId": 185,
+  "issueUrl": "https://github.com/code-423n4/2024-03-pooltogether-findings/issues/185"
+}
