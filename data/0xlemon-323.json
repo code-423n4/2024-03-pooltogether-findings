@@ -1,0 +1,8 @@
+{
+  "contest": 332,
+  "handle": "0xlemon",
+  "risk": "2",
+  "title": "claimYieldFeeShares rests yieldFeeBalance every time even if not all fees are claimed",
+  "issueId": 323,
+  "issueUrl": "https://github.com/code-423n4/2024-03-pooltogether-findings/issues/323"
+}
