@@ -1,0 +1,8 @@
+{
+  "contest": 332,
+  "handle": "GoSlang",
+  "risk": "2",
+  "title": "depositWithPermit allowance check is incorrect ",
+  "issueId": 231,
+  "issueUrl": "https://github.com/code-423n4/2024-03-pooltogether-findings/issues/231"
+}
