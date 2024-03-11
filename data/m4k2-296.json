@@ -1,0 +1,8 @@
+{
+  "contest": 332,
+  "handle": "m4k2",
+  "risk": "2",
+  "title": "ERC20 weird tokens with blacklisting / whitelisting and pause by the owner mechanism are not supported by the protocol and even not exclude by it.",
+  "issueId": 296,
+  "issueUrl": "https://github.com/code-423n4/2024-03-pooltogether-findings/issues/296"
+}
