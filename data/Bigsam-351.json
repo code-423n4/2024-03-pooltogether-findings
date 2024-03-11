@@ -1,0 +1,8 @@
+{
+  "contest": 332,
+  "handle": "Bigsam",
+  "risk": "2",
+  "title": "Loss of gas fund by user if 0 shares is minted in the yieldvault ",
+  "issueId": 351,
+  "issueUrl": "https://github.com/code-423n4/2024-03-pooltogether-findings/issues/351"
+}
