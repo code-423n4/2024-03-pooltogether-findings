@@ -1,0 +1,8 @@
+{
+  "contest": 332,
+  "handle": "peanuts",
+  "risk": "3",
+  "title": "YieldFee in PrizeVault is calculated incorrectly",
+  "issueId": 261,
+  "issueUrl": "https://github.com/code-423n4/2024-03-pooltogether-findings/issues/261"
+}
