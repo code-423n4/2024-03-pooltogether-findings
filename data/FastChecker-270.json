@@ -1,0 +1,8 @@
+{
+  "contest": 332,
+  "handle": "FastChecker",
+  "risk": "2",
+  "title": "No slippage control in the `PrizeVault.sol#withdraw()` and `PrizeVault.sol#redeem()` functions. The lack of slippage control for `PrizeVault.sol#withdraw()`, `PrizeVault.sol#redeem()` function can lead to a loss of assets for the affected users.",
+  "issueId": 270,
+  "issueUrl": "https://github.com/code-423n4/2024-03-pooltogether-findings/issues/270"
+}
