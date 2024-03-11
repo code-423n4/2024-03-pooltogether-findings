@@ -1,0 +1,8 @@
+{
+  "contest": 332,
+  "handle": "d3e4",
+  "risk": "3",
+  "title": "`claimYieldFeeShares()` sets `yieldFeeBalance = 0` instead of `yieldFeeBalance -= _shares`",
+  "issueId": 328,
+  "issueUrl": "https://github.com/code-423n4/2024-03-pooltogether-findings/issues/328"
+}
