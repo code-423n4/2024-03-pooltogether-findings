@@ -1,0 +1,8 @@
+{
+  "contest": 332,
+  "handle": "turvy_fuzz",
+  "risk": "3",
+  "title": "The entire yieldFeeBalance could be permanently lost due to wrong balance update",
+  "issueId": 233,
+  "issueUrl": "https://github.com/code-423n4/2024-03-pooltogether-findings/issues/233"
+}
