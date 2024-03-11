@@ -1,0 +1,8 @@
+{
+  "contest": 332,
+  "handle": "0xJoyBoy03",
+  "risk": "2",
+  "title": "The `claimYieldFeeShares` function will lose shares if `shares` != `yieldFeeBalance`",
+  "issueId": 348,
+  "issueUrl": "https://github.com/code-423n4/2024-03-pooltogether-findings/issues/348"
+}
