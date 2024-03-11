@@ -1,0 +1,8 @@
+{
+  "contest": 332,
+  "handle": "Afriauditor",
+  "risk": "2",
+  "title": "Liquidation of  `_availableYield` could lead to a temporary DoS due to unclaimed `YieldFees`",
+  "issueId": 268,
+  "issueUrl": "https://github.com/code-423n4/2024-03-pooltogether-findings/issues/268"
+}
