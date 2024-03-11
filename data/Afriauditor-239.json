@@ -1,0 +1,8 @@
+{
+  "contest": 332,
+  "handle": "Afriauditor",
+  "risk": "2",
+  "title": "In specific Edge case calculation for `Prizevault:maxdeposit` and `Prizevault:maxredeem` is inaccurate and has the potential to result in a denial-of-service (DOS) attack",
+  "issueId": 239,
+  "issueUrl": "https://github.com/code-423n4/2024-03-pooltogether-findings/issues/239"
+}
