@@ -2,8 +2,7 @@
 | -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | L-1      | No guarantee that PrizeVault deployed from PrizeVaultFactory uses a legitimate PrizePool contract                                                                                                                        |
 | L-2      | PrizeVault constructor does not assert `yieldBuffer_` is non-zero which could cause issues for PrizeVault instances not deployed by the PrizeVaultFactory                                                                |
-| L-3      | A malicious `PrizeVault::owner` could frontrun calls to `PrizeVault::transferTokensOut` raising the `yieldFeePercentage` causing the liquidation attempt to revert or blindsiding users with an unsuspected fee increase |
-| L-4      | Winners can gas grief the `Claimable::claimer` address by ensuring their `beforeClaimPrize` and `afterClaimPrize` hooks both use the maximum 150,000 gas                                                                 |
+| L-3      | Winners can gas grief the `Claimable::claimer` address by ensuring their `beforeClaimPrize` and `afterClaimPrize` hooks both use the maximum 150,000 gas                                                                 |
 
 # [L-1] No guarantee that PrizeVault deployed from PrizeVaultFactory uses a legitimate PrizePool contract
 
@@ -62,95 +61,7 @@ The documentation in the PrizeVault contract goes into a great amount of detail 
 
 The protocol should consider adding a check to PrizeVaults constructor that `yieldBuffer` is set to some minimum value to limit the chances of a vault instance causing a loss of user funds.
 
-# [L-3] A malicious `PrizeVault::owner` could frontrun calls to `PrizeVault::transferTokensOut` raising the `yieldFeePercentage` causing the liquidation attempt to revert or blindsiding users with an unsuspected fee increase
-
-[Instance One](https://github.com/code-423n4/2024-03-pooltogether/blob/main/pt-v5-vault/src/PrizeVault.sol#L753)
-
-**Impact**
-
-Assuming the liquidator who calls `LiquidationPair::swapExactAmountOut` attemps to swap the maximum liquidatable amount from the PrizeVault it would be possible for the PrizeVault's owner to sandwich their transaction, first raising the `yieldFeePercentage` (thus causing the transaction to revert with a `LiquidationExceedsAvailable` error), then lowering the `yieldFeePercentage` back to normal after the transaction fails. On the other hand, if the liquidator attempts to liquidate less than the maximum liquidatable amount this gives the PrizeVault owner the opportunity to raise fees for real and take a larger cut than the depositers are expecting.
-
-**Proof of Concept**
-
-## Liquidator attempts to liquidate max and tx reverts
-
-Add the following test to PrizeVault.t.sol to confirm this:
-
-```solidity
-    function test_YieldFeeBalanceFeeFrontrunRevert() public {
-        vault.setYieldFeePercentage(1e7); // 1%
-        vault.setYieldFeeRecipient(bob);
-        assertEq(vault.totalDebt(), 0);
-
-        // Make an initial deposit
-        underlyingAsset.mint(alice, 1e18);
-        vm.startPrank(alice);
-        underlyingAsset.approve(address(vault), 1e18);
-        vault.deposit(1e18, alice);
-        vm.stopPrank();
-
-        // Add funds to liquidiate
-        underlyingAsset.mint(address(vault), 1e18);
-        vault.setLiquidationPair(address(this));
-        // Calculate how much to liquidiate
-        uint256 maxLiquidation = vault.liquidatableBalanceOf(address(underlyingAsset));
-        // Attempt to claim max liquidable amount
-        uint256 amountOut = maxLiquidation;
-
-        // Bump yieldFeePercentage before liquidator can call transferTokensOut
-        vault.setYieldFeePercentage(1e8);
-
-        // Attempt transfer tokens out
-        vault.transferTokensOut(address(0), bob, address(underlyingAsset), amountOut);
-    }
-```
-
-## Liquidiate attempts to liquidate less than max and owner gets extra fees
-
-Add the follwing test to PrizeVault.t.sol to confirm this:
-
-```solidity
-    function test_YieldFeeBalanceFeeFrontrunFeeSteal() public {
-        vault.setYieldFeePercentage(1e7); // 1%
-        vault.setYieldFeeRecipient(bob);
-        assertEq(vault.totalDebt(), 0);
-
-        // Make an initial deposit
-        underlyingAsset.mint(alice, 1e18);
-        vm.startPrank(alice);
-        underlyingAsset.approve(address(vault), 1e18);
-        vault.deposit(1e18, alice);
-        vm.stopPrank();
-
-        // Add funds to liquidiate
-        underlyingAsset.mint(address(vault), 1e18);
-        vault.setLiquidationPair(address(this));
-        // Calculate how much to liquidiate
-        uint256 maxLiquidation = vault.liquidatableBalanceOf(address(underlyingAsset));
-        // Liquidates less than max
-        uint256 amountOut = maxLiquidation / 2;
-
-        // Bump yieldFeePercentage before liquidator can call transferTokensOut
-        vault.setYieldFeePercentage(1e8);
-
-        // Attempt transfer tokens out
-        vault.transferTokensOut(address(0), bob, address(underlyingAsset), amountOut);
-    }
-```
-
-The tests provide the following results:
-
-```solidity
-    [PASS] test_YieldFeeBalanceFeeFrontrunFeeSteal() (gas: 438292)
-    [FAIL. Reason: LiquidationExceedsAvailable(1099999999998900000 [1.099e18], 999999999999000000 [9.999e17])] test_YieldFeeBalanceFeeFrontrunRevert() (gas: 467793)
-    Test result: FAILED. 1 passed; 1 failed; 0 skipped; finished in 2.43ms
-```
-
-**Recommended Mitigation**
-
-It would be preferable if the PrizeVault owner did not have the power to change the `yieldFeePercentage` while a lottery round is ongoing. Removing this ability would deny this griefing opportunity but also ensure that users aren't blind sided by the owner raising fees shortly before the yield generated is liquidated.
-
-# [L-4] Winners can gas grief the `Claimable::claimer` address by ensuring their `beforeClaimPrize` and `afterClaimPrize` hooks both use the maximum 150,000 gas
+# [L-3] Winners can gas grief the `Claimable::claimer` address by ensuring their `beforeClaimPrize` and `afterClaimPrize` hooks both use the maximum 150,000 gas
 
 [Instance One](https://github.com/code-423n4/2024-03-pooltogether/blob/main/pt-v5-vault/src/abstract/Claimable.sol#L76)
 
