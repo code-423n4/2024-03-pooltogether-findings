@@ -1,0 +1,8 @@
+{
+  "contest": 332,
+  "handle": "Infect3d",
+  "risk": "2",
+  "title": "A Malicious Prize Winner Can Steal the ClaimReward From the Claimer Using the BeforeClaimPrize Hook",
+  "issueId": 263,
+  "issueUrl": "https://github.com/code-423n4/2024-03-pooltogether-findings/issues/263"
+}
