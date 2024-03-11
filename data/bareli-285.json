@@ -1,0 +1,8 @@
+{
+  "contest": 332,
+  "handle": "bareli",
+  "risk": "2",
+  "title": "No check on ERC20  transfer ",
+  "issueId": 285,
+  "issueUrl": "https://github.com/code-423n4/2024-03-pooltogether-findings/issues/285"
+}
