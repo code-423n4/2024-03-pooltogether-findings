@@ -1,0 +1,8 @@
+{
+  "contest": 332,
+  "handle": "trachev",
+  "risk": "3",
+  "title": "Claiming yield fees may fully deplete the yield buffer and render the vault into a lossy state",
+  "issueId": 313,
+  "issueUrl": "https://github.com/code-423n4/2024-03-pooltogether-findings/issues/313"
+}
