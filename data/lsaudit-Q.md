@@ -144,7 +144,7 @@ if (condition) doSomething();
 
 ```
 if (condition) {
-    expression();
+    doSomething();
 }
 ```
 
