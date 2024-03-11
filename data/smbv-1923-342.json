@@ -1,0 +1,8 @@
+{
+  "contest": 332,
+  "handle": "smbv-1923",
+  "risk": "3",
+  "title": "Yield Fee Shares could be lost while claiming claimYieldFeeShares",
+  "issueId": 342,
+  "issueUrl": "https://github.com/code-423n4/2024-03-pooltogether-findings/issues/342"
+}
