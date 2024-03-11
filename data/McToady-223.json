@@ -1,0 +1,8 @@
+{
+  "contest": 332,
+  "handle": "McToady",
+  "risk": "2",
+  "title": " `PrizeVault::claimYieldFeeShares(uint256 _shares)` always reduces `yieldFeeBalance` to zero, leaving funds stuck in the yield vault if `_shares < yieldFeeBalance`.  ",
+  "issueId": 223,
+  "issueUrl": "https://github.com/code-423n4/2024-03-pooltogether-findings/issues/223"
+}
