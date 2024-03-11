@@ -1,0 +1,8 @@
+{
+  "contest": 332,
+  "handle": "Tripathi",
+  "risk": "2",
+  "title": " For Some underlying assets, smallest rounding error can be exploited by an attacker to deny yield generation for the prize vault",
+  "issueId": 245,
+  "issueUrl": "https://github.com/code-423n4/2024-03-pooltogether-findings/issues/245"
+}
