@@ -1,0 +1,8 @@
+{
+  "contest": 332,
+  "handle": "DarkTower",
+  "risk": "2",
+  "title": "`PrizeVault::sponsor` is flawed, lacks access control and allows any single user to up their chances to win",
+  "issueId": 219,
+  "issueUrl": "https://github.com/code-423n4/2024-03-pooltogether-findings/issues/219"
+}
