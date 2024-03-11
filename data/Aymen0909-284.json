@@ -1,0 +1,8 @@
+{
+  "contest": 332,
+  "handle": "Aymen0909",
+  "risk": "2",
+  "title": "Both `deposit`/`mint` use 1:1 ratio even if vault has less assets than debts",
+  "issueId": 284,
+  "issueUrl": "https://github.com/code-423n4/2024-03-pooltogether-findings/issues/284"
+}
