@@ -1,0 +1,8 @@
+{
+  "contest": 332,
+  "handle": "leegh",
+  "risk": "2",
+  "title": "`previewDeposit` and `previewMint` return incorrect value when total assets is less than total debt.",
+  "issueId": 310,
+  "issueUrl": "https://github.com/code-423n4/2024-03-pooltogether-findings/issues/310"
+}
