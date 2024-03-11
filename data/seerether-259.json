@@ -1,0 +1,8 @@
+{
+  "contest": 332,
+  "handle": "seerether",
+  "risk": "3",
+  "title": " A potential vulnerability of  yieldFeeBalance not being claimed by anyone, effectively locking the yield fee shares forever.",
+  "issueId": 259,
+  "issueUrl": "https://github.com/code-423n4/2024-03-pooltogether-findings/issues/259"
+}
