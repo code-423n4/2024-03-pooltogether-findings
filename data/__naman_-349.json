@@ -1,0 +1,8 @@
+{
+  "contest": 332,
+  "handle": "__naman_",
+  "risk": "2",
+  "title": "A variable indicating the number of vaults in existence should be there in the factory contract.",
+  "issueId": 349,
+  "issueUrl": "https://github.com/code-423n4/2024-03-pooltogether-findings/issues/349"
+}
