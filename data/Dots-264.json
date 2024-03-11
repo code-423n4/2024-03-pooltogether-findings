@@ -1,0 +1,8 @@
+{
+  "contest": 332,
+  "handle": "Dots",
+  "risk": "2",
+  "title": "function claimYieldFeeShares doesnt update yieldFeeBalance accurately",
+  "issueId": 264,
+  "issueUrl": "https://github.com/code-423n4/2024-03-pooltogether-findings/issues/264"
+}
