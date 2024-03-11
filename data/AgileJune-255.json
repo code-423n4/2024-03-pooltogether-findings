@@ -1,0 +1,8 @@
+{
+  "contest": 332,
+  "handle": "AgileJune",
+  "risk": "2",
+  "title": "There is not checking of token existence which will lead to get unexpected decimals for non-existed asset token.",
+  "issueId": 255,
+  "issueUrl": "https://github.com/code-423n4/2024-03-pooltogether-findings/issues/255"
+}
