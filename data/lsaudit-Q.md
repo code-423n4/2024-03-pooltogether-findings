@@ -93,7 +93,7 @@ function convertToAssets(uint256 _shares) public view returns (uint256) {
 It's possible to call function which updates the state variable with the same value.
 It's a good practice to make sure, that whenever we update some value, it's not being set to the same value which it was before the update.
 E.g., let's consider a scenario where `yieldFeePercentage = 7e7;`. Calling `setYieldFeePercentage(7e7)` is possible, even though it won't change the value of the variable: `yieldFeePercentage` will remain `7e7`.
-Moreover, after calling `setYieldFeePercentage(123)`, function will still emit an `YieldFeePercentageSet()` event, even though nothing had been updated (the `yieldFeePercentage` would remain the same). Seeing that event might be confusing for the end-user.
+Moreover, after calling `setYieldFeePercentage(7e7)`, function will still emit an `YieldFeePercentageSet()` event, even though nothing had been updated (the `yieldFeePercentage` would remain the same). Seeing that event might be confusing for the end-user.
 
 Our recommendation is to implement additional check which verifies if value is really changed. This can be done in `_setYieldFeePercentage()` function, by adding additional `require` check:
 
