@@ -495,5 +495,7 @@ The audit of PoolTogether not only highlighted the project's innovative contribu
 NOTE: I don't track time while auditing or writing report, so what the time I specified is just a number
 
 
+
+
 ### Time spent:
 4 hours
