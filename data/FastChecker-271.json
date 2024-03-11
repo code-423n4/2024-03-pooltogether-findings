@@ -1,0 +1,8 @@
+{
+  "contest": 332,
+  "handle": "FastChecker",
+  "risk": "2",
+  "title": "Invalid validation for liquidationPair in `PrizeVaultsetLiquidationPair()` function. The protocol may not perform its role due to invalid validation of `liquidationPair` in the `PrizeVault.sol#setLiquidationPair()` function.",
+  "issueId": 271,
+  "issueUrl": "https://github.com/code-423n4/2024-03-pooltogether-findings/issues/271"
+}
