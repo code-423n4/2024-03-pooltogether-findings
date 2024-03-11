@@ -1,0 +1,8 @@
+{
+  "contest": 332,
+  "handle": "Tripathi",
+  "risk": "3",
+  "title": "`claimYieldFeeShares` can lead to loss of `yieldFeeBalance `",
+  "issueId": 240,
+  "issueUrl": "https://github.com/code-423n4/2024-03-pooltogether-findings/issues/240"
+}
